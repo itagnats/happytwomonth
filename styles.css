@@ -261,8 +261,8 @@ body {
 /* ROSES */
 .rose {
   position: absolute;
-  width: 80px;
-  animation: rise 4s linear infinite;
+  width: 70px;
+  animation: rise 6s linear infinite;
 }
 
 @keyframes rise {
