@@ -82,11 +82,11 @@ function typeLetter() {
 
 From the moment you entered my world, everything felt different. It feels so amazing with you, everytime I look into your eyes I get butterflies.I love staring at you, admire your pretty face, feel your love for me through your eyes.
 
-I never thought I could love someone this much before, I love our companionship, how compatiblewe are, how comfy we feel around each other. I can't wait till I have you in my arms, to feel your skin, to feel inside you.
+I never thought I could love someone this much before, I love our companionship, how compatible we are, how comfy we feel around each other. I can't wait till I have you in my arms, to feel your skin, to feel inside you.
 
-I'm so lucky baby and so grateful for you .You make me feel safe, seen, and loved so much. You always put me first, you care how I feel.You treat me like a princess, show me how real love feels like. You're absolutely perfect.
+I'm so lucky baby and so grateful for you. You make me feel safe, seen, and loved so much. You always put me first, you care how I feel. You treat me like a princess, show me how real love feels like. You're absolutely perfect.
 
-Baby I promise you, I will always love you and care for you till the end of our lives, Two months feels small on the calendar, but huge in my heart as I already know you're the one I want to spend th rest of my life with. 
+Baby I promise you, I will always love you and care for you till the end of our lives, Two months feels small on the calendar, but huge in my heart as I already know you're the one I want to spend the rest of my life with. 
 
 Baby, you're my favorite person, my favorite place. You're my home and I love you with my soul baby ❤️`;
 
@@ -147,3 +147,4 @@ const restartBtn = document.getElementById("restart");
 restartBtn?.addEventListener("click", () => {
   location.reload();
 });
+
