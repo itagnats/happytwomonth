@@ -249,9 +249,9 @@ body {
 
 /* LETTER */
 .letter-box {
-  font-size: 10px;
+  font-size: 8px;
   max-width: 300px;
-  line-height: 1.8;
+  line-height: 1.4;
   background: #eceff1;
   border: #ff4d6d;
   border-radius: 5px;
