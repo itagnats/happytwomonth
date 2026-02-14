@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Happy 2 month ❤️</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- 🌤 SCENE 1 -->
+    <section class="scene active sky">
+      <div class="sky-layer day">
+        <div class="sun"></div>
+        <div class="cloud c1"></div>
+        <div class="cloud c2"></div>
+      </div>
+      <div class="bubble">I was wandering alone...</div>
+      <img src="player1.svg" class="character center" />
+
+      <button class="next">Next</button>
+      <div class="scene-title">
+        Wondering if I would be <br>
+        able to open my heart to <br>
+        someone again...
+      </div>
+    </section>
+
+    <!-- 🌸 SCENE 2 -->
+    <section class="scene sky">
+      
+      <div class="sky-layer day">
+        <div class="sun"></div>
+        <div class="cloud c1"></div>
+        <div class="cloud c2"></div>
+      </div>
+
+      <div class="row">
+        <div>
+          <div class="bubble">Hi ❤️</div>
+          <img src="player1.svg" class="character left" />
+        </div>
+        <div>
+          <div class="bubble">Hi pretty!</div>
+          <img src="player2.svg" class="character right" />
+        </div>
+      </div>
+
+      <button class="next">Next</button>
+      <div class="scene-title">
+        Then you walk into my life <br> 
+        make it more beautiful and <br>
+        from that day my life   <br>
+        has changed forever
+      </div>
+    </section>
+
+    <!-- 🌙 SCENE 3 -->
+    <section class="scene night">
+      
+      <div class="sky-layer">
+        <div class="moon"></div>
+        <div class="cloud c1 night-cloud"></div>
+        <div class="cloud c2 night-cloud"></div>
+      </div>
+
+      <div class="row">
+        <div>
+          <div class="bubble small">Good morning baby ❤️</div>
+          <img src="player1.svg" class="character left" />
+        </div>
+        <div>
+          <div class="bubble small">Good evening baby ❤️</div>
+          <img src="player2.svg" class="character right" />
+        </div>
+      </div>
+
+      <button class="next">Next</button>
+      <div class="scene-title">
+        And our late night talk <br>
+        become  our daily routine<br>
+        everyday filled with <br>
+        so much laughter and love
+      </div>
+    </section>
+
+      <!-- 🌙 SCENE 4 -->
+      <section class="scene night">
+      
+        <div class="sky-layer">
+          <div class="moon"></div>
+          <div class="cloud c1 night-cloud"></div>
+          <div class="cloud c2 night-cloud"></div>
+        </div>
+  
+        <div class="row">
+          <div>
+            <div class="bubble small">I love you baby ❤️</div>
+            <img src="player1.svg" class="character left" />
+          </div>
+          <div>
+            <div class="bubble small">I can't live without you</div>
+            <img src="player2.svg" class="character right" />
+          </div>
+        </div>
+  
+        <button class="next">Next</button>
+        <div class="scene-title">
+          Till we realize we fall<br>
+          hard for each other and <br>
+          harder everyday, we can't<br>
+          live without each other
+        </div>
+      </section>
+
+    <!-- 🎮 QUEST SCENE -->
+    <section class="scene purple">
+
+      <div class="quest">
+        <h3>Answer to unlock Love quest 💌</h3>
+
+        <div class="question">
+          <p>What is my favorite drink?</p>
+          <button class="choice" data-correct="true">Coffee</button>
+          <button class="choice">Tea</button>
+          <button class="choice">Cocoa</button>
+        </div>
+
+        <div class="question">
+          <p>Our favorite time together?</p>
+          <button class="choice">My morning</button>
+          <button class="choice" data-correct="true">My night</button>
+          <button class="choice">Me in a shower</button>
+        </div>
+
+        <div class="question">
+          <p>Who write the first letter?</p>
+          <button class="choice">Tiph</button>
+          <button class="choice" data-correct="true">Ita</button>
+          <button class="choice">Lil Tiny</button>
+        </div>
+
+        <button id="unlockBtn" disabled>Unlock quest</button>
+
+      </div>
+    </section>
+
+    <!-- 💌 ENVELOPE -->
+    <section class="scene envelope-scene">
+      
+      <div class="envelope-container">
+        <div class="envelope" id="envelope">
+          <div class="flap"></div>
+          <div class="letter-inside">Tap me baby</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 💌 LETTER -->
+    <section class="scene letter">
+      <div class="letter-box" id="letterText"></div>
+    </section>
+
+    <!-- 🌅 FINAL -->
+    <section class="scene sunset">
+      <div class="cloud c1"></div>
+        <div class="cloud c2"></div>
+      
+      <div class="row close">
+        <img src="player1.svg" class="character" />
+        <img src="player2.svg" class="character" />
+      </div>
+      <h2 style="margin-top: 20px;">Happy 2 Months</h2>
+      <h4 style="margin-top: 20px;">and</h2>
+      <h4 style="margin-top: 20px;">Happy Valentine's day</h2>
+      <div class="rose-container"></div>
+      <div class="scene-title">My Forever Love ❤️</div>
+      <button id="restart">Play Again</button>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>

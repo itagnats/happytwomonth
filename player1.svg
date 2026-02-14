@@ -1,0 +1,38 @@
+<svg width="80" height="120" viewBox="0 0 80 120" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Hair -->
+  <rect x="20" y="12" width="40" height="55" fill="#1a1a1a"/>
+  <rect x="14" y="22" width="10" height="45" fill="#1a1a1a"/>
+  <rect x="56" y="22" width="10" height="45" fill="#1a1a1a"/>
+
+  <!-- Bangs -->
+  <rect x="25" y="18" width="30" height="10" fill="#1a1a1a"/>
+  <rect x="22" y="22" width="6" height="8" fill="#1a1a1a"/>
+  <rect x="52" y="22" width="6" height="8" fill="#1a1a1a"/>
+
+  <!-- Face -->
+  <rect x="25" y="20" width="30" height="35" fill="#edc7a1"/>
+
+  <!-- Eyes -->
+  <rect x="30" y="35" width="5" height="5" fill="#000"/>
+  <rect x="45" y="35" width="5" height="5" fill="#000"/>
+
+  <!-- Blush -->
+  <rect x="27" y="45" width="6" height="4" fill="#ff8fa3"/>
+  <rect x="47" y="45" width="6" height="4" fill="#ff8fa3"/>
+
+  <!-- Mouth -->
+  <rect x="37" y="47" width="6" height="3" fill="#8b0000"/>
+
+  <!-- Arms -->
+  <rect x="18" y="58" width="10" height="25" fill="#edc7a1"/>
+  <rect x="52" y="58" width="10" height="25" fill="#edc7a1"/>
+
+  <!-- Body -->
+  <rect x="28" y="55" width="24" height="35" fill="#ff758f"/>
+
+  <!-- Legs -->
+  <rect x="28" y="90" width="10" height="20" fill="#444"/>
+  <rect x="42" y="90" width="10" height="20" fill="#444"/>
+
+</svg>
